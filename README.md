@@ -1,4 +1,2 @@
-practica7
+practica6
 =========
-
-practica 7 LPP

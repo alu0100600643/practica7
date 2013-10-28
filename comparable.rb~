@@ -1,0 +1,7 @@
+
+
+module Comparable
+	def Comparable.<=>(fr2)
+		return (@n, @d) <=> (fr2.n, fr2.d)
+	end
+end

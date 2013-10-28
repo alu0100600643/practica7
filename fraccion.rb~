@@ -3,7 +3,7 @@ require "./comparable.rb"
 
 class Fraccion
 
-	include Comparable
+	Include Comparable
 
 	attr_accessor :n, :d
 

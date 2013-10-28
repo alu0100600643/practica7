@@ -106,21 +106,6 @@ class Fraccion
 		Fraccion.new(@n % @d, fr2.n % fr2.d).reduce
 	end
 
-	def <(fr2)
-		(@n/@d) < (fr2.n/fr2.d)	
-	end	
-	
-	def >(fr2)
-		(@n/@d) > (fr2.n/fr2.d)
-	end
-
-	def <=(fr2)
-		(@n/@d) <= (fr2.n/fr2.d)
-	end
-
-	def >=(fr2)
-		(@n/@d) >= (fr2.n/fr2.d)
-	end
 end	
 
 
